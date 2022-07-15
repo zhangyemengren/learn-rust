@@ -1,16 +1,1 @@
-validate.limit😈*兑换数量超过上限，您最多可兑换X张。😈	*You have exceeded the number of vouchers you can redeem (max. X vouchers).	😈*お客様はバウチャーの交換可能枚数（最大X枚）の上限に達しています。
-validate.limit.once😈*单次最多可兑换50张。😈	*You can only redeem up to 50 vouchers at one time.	😈*一回に交換いただけるバウチャーは50枚までとなります。
-validate.noPoints😈*您当前的积分不足，请修改兑换数量。	😈*You currently do not have enough Points to redeem this voucher. Please modify the number to continue.	😈*現在、こちらのバウチャーの交換に必要なポイントが不足しています。続行される場合は数量を変更してください。
-validate.limit.you😈*您最多可兑换X张。	😈*You can only redeem up to X vouchers.	😈*お客様はバウチャーをX枚まで交換いただけます。
-validate.limit.user😈*每个用户最多兑换X张。	😈*Each member can only redeem up to X vouchers.	😈*バウチャーは会員1名様につきX枚まで交換いただけます。
-label.nominee😈兑换人	😈Voucher Recipient:	😈バウチャーお受取人
-validate.no.voucher😈当前礼券库存不足，您最多可以兑换X张，请修改数量后重新提交。	😈Sorry, only X of these vouchers are available for redemption at the moment. Please modify the number to continue.	😈申し訳ございません。現在、こちらのクーポンはX枚まで交換可能です。続行される場合は数量を変更してください。
-validate.pointsChange😈很抱歉，当前礼券价格已变更，您是否同意额外支付X积分进行兑换？	😈Sorry, this voucher value has changed. Do you agree to pay an extra X Points to redeem?	😈申し訳ございません。こちらのバウチャーの交換ポイント数が変更されました。Xポイントを追加して交換することに同意されますか？
-text.agree😈我已阅读并同意xxxx	😈I have read and agree xxxx	😈XXXを確認し、同意しました。
-validate.onlyGC😈抱歉，当前礼券仅限新启动网上账户的会员兑换。	😈Sorry, this voucher can only be redeemed by members who have activated their account online.	 😈申し訳ございません。こちらのバウチャーはオンラインアカウントを有効化した会員のみ交換可能です。
-label.conut😈数量	😈Number	😈数量
-label.date😈有效期	😈Expiry Date	😈有効期限
-label.voucherName😈礼券名称	😈Voucher Name	😈バウチャー名
-label.contact😈联络信息	😈Contact Information	😈ご連絡先
-button.back😈返回商城	😈Back to shop 	 😈ショップに戻る
-label.hotel😈适用酒店	😈Applicable Hotel(s)	😈対象ホテル
+aa 😈 x 😈 x 😈 x

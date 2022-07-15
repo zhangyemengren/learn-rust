@@ -11,15 +11,15 @@ use std::thread;
 use crate::LANG;
 
 fn check_file(stdin_lines: Vec<String>, content: &Vec<Vec<String>>) -> io::Result<()> {
-    let base_path = String::from("/Users/chi.zhang/project/sl_com_h5/common/locales/");
-    let dir_suffix = &stdin_lines[2];
+    let base_path = String::from("");
+    let dir_suffix = &stdin_lines[1];
     let dir_name = base_path + dir_suffix.as_str();
     if !Path::new(&dir_name).exists() {
         fs::create_dir(&dir_name)?;
     }
     let mut pool = vec![];
     for (index, lang) in LANG.into_iter().enumerate() {
-        let file_name = dir_name.clone() + lang + ".json";
+        let file_name = dir_name.clone() + "/" + lang + ".json";
         let c = content.to_vec();
         pool.push(thread::spawn(move || {
             if !Path::new(&file_name).exists() {
@@ -67,8 +67,10 @@ pub fn write_h5_with_wiki() {
                 .map(|(i, x)| {
                     let mut x = x.trim().to_string();
                     if i == 0 {
-                        let mut pre_fix = stdin_lines[1].clone();
-                        pre_fix.push_str(".");
+                        let mut pre_fix = String::new();
+                        if stdin_lines.len() > 2 {
+                            pre_fix = stdin_lines[2].clone() + ".";
+                        }
                         x.insert_str(0, pre_fix.as_str());
                     }
                     x
