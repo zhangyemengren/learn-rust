@@ -1,1 +1,2 @@
-aa 😈 x 😈 x 😈 x
+btn.goVoucher😈前往礼券列表	😈Go to voucher list	😈バウチャーリストを見る
+btn.record😈查看兑换记录	😈View redemption history	😈交換履歴を見る
